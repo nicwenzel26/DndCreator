@@ -15,4 +15,9 @@ int main()
         std::cout << "Ready to make a new character (y/n) ";
         std::cin >> response;
     }
+
+    if (response == 'n') {
+        std::cout << "OK! See you later!\n";
+        exit(0);
+    }
 }
