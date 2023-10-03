@@ -7,6 +7,8 @@ class Character {
     public:
         Character(std::string name);
 
+        std::string getCharName();
+
     protected:
         std::string name;
         // Race
