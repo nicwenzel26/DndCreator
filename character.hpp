@@ -16,6 +16,41 @@ class Character {
         ///////////////////////////////////////////////////////////////////////
         void updateStrength(int updateVal);
 
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateDex() - Function to update the dextarity attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateDex(int updateVal);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateCon() - Function to update the constitution attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateCon(int updateVal);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateInt() - Function to update the intellegence attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateInt(int updateVal);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateWis() - Function to update the wisdom attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateWis(int updateVal);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateChar() - Function to update the charisma attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateChar(int updateVal);
+
     protected:
         std::string name;
         // Race
@@ -25,7 +60,7 @@ class Character {
 
         int strength;
         int dexterity;
-        int contitution;
+        int constitution;
         int intelligence;
         int wisdom;
         int charisma;
