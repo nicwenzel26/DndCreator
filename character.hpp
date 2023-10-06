@@ -9,6 +9,13 @@ class Character {
 
         std::string getCharName();
 
+        ///////////////////////////////////////////////////////////////////////
+        // @brief updateStrength() - Function to update the strength attribute
+        // @param int updateVal
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void updateStrength(int updateVal);
+
     protected:
         std::string name;
         // Race
@@ -16,12 +23,12 @@ class Character {
         int hp;
         int ac;
 
-        int str;
-        int dex;
-        int con;
-        int intel;
-        int wis;
-        int chari;
+        int strength;
+        int dexterity;
+        int contitution;
+        int intelligence;
+        int wisdom;
+        int charisma;
 
         int strBonus;
         int dexBonus;
@@ -29,7 +36,6 @@ class Character {
         int intBonus;
         int wisBonus;
         int charBonus;
-
 };
 
 #endif // CHARACTER_HPP
