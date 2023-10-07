@@ -30,4 +30,15 @@ int main()
     Character playerCharacter = Character(tempCharName);
 
     std::cout << "\n\nYour character name is: " << playerCharacter.getCharName() << ".\n";
+
+    std::cout << "\nGreat! Now we need to pick a race for your character.\n";
+    std::cout << "Your options are:\n";
+
+    for (int i = 0; i < Constants::Races.size(); i++)
+    {
+        std::cout << i + 1 << ": " << Constants::Races[i] << "\n";
+    }
+
+    std::cout << "Which would you like to be? ";
+
 }

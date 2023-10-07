@@ -134,10 +134,10 @@ int Character::getChar()
 
 ///////////////////////////////////////////////////////////////////////
 // @breif setSize() - Function to update the characters size
-// @param Sizes newSize - new size for character
+// @param std::string newSize - new size for character
 // @return void
 ///////////////////////////////////////////////////////////////////////
-void Character::setSize(Sizes newSize)
+void Character::setSize(std::string newSize)
 {
     size = newSize;
 }
@@ -145,9 +145,9 @@ void Character::setSize(Sizes newSize)
 ///////////////////////////////////////////////////////////////////////
 // @brief getSize() - Function to get the characters size
 // @param none
-// @return Sizes
+// @return std::string
 ///////////////////////////////////////////////////////////////////////
-Sizes Character::getSize()
+std::string Character::getSize()
 {
     return size;
 }

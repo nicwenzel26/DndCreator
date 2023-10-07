@@ -1,19 +1,11 @@
 #ifndef UTIL_H
 #define UTIL_H
-
-enum Races 
+#include <string>
+#include <vector>
+namespace Constants
 {
-    Dwarf
-};
-
-enum Sizes
-{
-    Tiny,
-    Small,
-    Medium,
-    Large,
-    Huge
-};
+    const std::vector<std::string> Races = {"Dwarf"};
+}
 
 
 #endif // UTIL_H

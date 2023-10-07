@@ -98,17 +98,17 @@ class Character {
 
         ///////////////////////////////////////////////////////////////////////
         // @breif setSize() - Function to update the characters size
-        // @param Sizes newSize - new size for character
+        // @param std::string newSize - new size for character
         // @return void
         ///////////////////////////////////////////////////////////////////////
-        void setSize(Sizes newSize);
+        void setSize(std::string newSize);
 
         ///////////////////////////////////////////////////////////////////////
         // @brief getSize() - Function to get the characters size
         // @param none
         // @return Sizes
         ///////////////////////////////////////////////////////////////////////
-        Sizes getSize();
+        std::string getSize();
 
         ///////////////////////////////////////////////////////////////////////
         // @breif setSpeed() - Function to update the characters speed
@@ -126,12 +126,12 @@ class Character {
 
     protected:
         std::string name;
-        Races race;
+        std::string race;
         // Class
         int hp;
         int ac;
 
-        Sizes size; 
+        std::string size; 
         int   speed;
 
         int strength;

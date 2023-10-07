@@ -3,9 +3,9 @@
 
 #include "../character.hpp"
 
-int dwarfConBonus = 2;
-Sizes dwarfSize   = Sizes::Medium;
-int dwarfSpeed    = 25;
+int dwarfConBonus     = 2;
+std::string dwarfSize = "Medium";
+int dwarfSpeed        = 25;
 
 ////////////////////////////////////////////////////////////////////////
 // @brief Function to adjust the traits of the passed in character for

@@ -1,5 +1,4 @@
 #include "dwarf.h"
-#include "../util.h"
 
 ////////////////////////////////////////////////////////////////////////
 // @brief Function to adjust the traits of the passed in character for
