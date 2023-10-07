@@ -10,4 +10,9 @@ void setDwarfTraits(Character &character)
     character.setSize(dwarfSize);
     character.updateCon(dwarfConBonus);
     character.setSpeed(dwarfSpeed);
+
+    character.addTrait(Constants::darkVison);
+    character.addTrait(dwarfResilance);
+    character.addTrait(stonecunning);
+    character.addTrait(dwarfLanguage);
 }
