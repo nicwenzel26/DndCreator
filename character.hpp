@@ -124,6 +124,13 @@ class Character {
         ///////////////////////////////////////////////////////////////////////
         int getSpeed();
 
+        ///////////////////////////////////////////////////////////////////////
+        // @brief addTrait() - Function to add a trait to list of traits
+        // @param std::string newTrait
+        // @return none
+        ///////////////////////////////////////////////////////////////////////
+        void addTrait(std::string newTrait);
+
     protected:
         std::string name;
         std::string race;
@@ -147,6 +154,9 @@ class Character {
         int intBonus;
         int wisBonus;
         int charBonus;
+
+        std::vector<std::string> traits;
+        std::vector<std::string> proficencies;
 };
 
 #endif // CHARACTER_HPP
