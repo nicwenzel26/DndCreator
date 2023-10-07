@@ -131,6 +131,13 @@ class Character {
         ///////////////////////////////////////////////////////////////////////
         void addTrait(std::string newTrait);
 
+        ///////////////////////////////////////////////////////////////////////
+        // @brief addProficiency() - Function to add a trait to list of proficiencies
+        // @param std::string newProficiency
+        // @return none
+        ///////////////////////////////////////////////////////////////////////
+        void addProficiency(std::string newProficiency);
+
     protected:
         std::string name;
         std::string race;

@@ -181,3 +181,13 @@ void Character::addTrait(std::string newTrait)
 {
     traits.push_back(newTrait);
 }
+
+///////////////////////////////////////////////////////////////////////
+// @brief addTrait() - Function to add a trait to list of traits
+// @param std::string newTrait
+// @return none
+///////////////////////////////////////////////////////////////////////
+void Character::addProficiency(std::string newProficiency)
+{
+    proficencies.push_back(newProficiency);
+}
