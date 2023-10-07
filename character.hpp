@@ -2,6 +2,7 @@
 #define CHARACTER_HPP
 
 #include <string>
+#include "util.h"
 
 class Character {
     public:
@@ -94,12 +95,28 @@ class Character {
         ///////////////////////////////////////////////////////////////////////
         int getChar();
 
+        ///////////////////////////////////////////////////////////////////////
+        // @breif setSize() - Function to update the characters size
+        // @param Sizes newSize - new size for character
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void setSize(Sizes newSize);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief getSize() - Function to get the characters size
+        // @param none
+        // @return Sizes
+        ///////////////////////////////////////////////////////////////////////
+        Sizes getSize();
+
     protected:
         std::string name;
         // Race
         // Class
         int hp;
         int ac;
+
+        Sizes size; 
 
         int strength;
         int dexterity;
