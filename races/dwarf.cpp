@@ -10,4 +10,5 @@ void setDwarfTraits(Character &character)
 {
     character.setSize(dwarfSize);
     character.updateCon(dwarfConBonus);
+    character.setSpeed(dwarfSpeed);
 }

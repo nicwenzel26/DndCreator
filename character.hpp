@@ -2,6 +2,7 @@
 #define CHARACTER_HPP
 
 #include <string>
+#include <vector>
 #include "util.h"
 
 class Character {
@@ -109,14 +110,29 @@ class Character {
         ///////////////////////////////////////////////////////////////////////
         Sizes getSize();
 
+        ///////////////////////////////////////////////////////////////////////
+        // @breif setSpeed() - Function to update the characters speed
+        // @param int newSpeed - new speed for character
+        // @return void
+        ///////////////////////////////////////////////////////////////////////
+        void setSpeed(int newSpeed);
+
+        ///////////////////////////////////////////////////////////////////////
+        // @brief getSpeed() - Function to get the characters speed
+        // @param none
+        // @return int
+        ///////////////////////////////////////////////////////////////////////
+        int getSpeed();
+
     protected:
         std::string name;
-        // Race
+        Races race;
         // Class
         int hp;
         int ac;
 
         Sizes size; 
+        int   speed;
 
         int strength;
         int dexterity;

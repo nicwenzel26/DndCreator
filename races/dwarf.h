@@ -5,6 +5,7 @@
 
 int dwarfConBonus = 2;
 Sizes dwarfSize   = Sizes::Medium;
+int dwarfSpeed    = 25;
 
 ////////////////////////////////////////////////////////////////////////
 // @brief Function to adjust the traits of the passed in character for
