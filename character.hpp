@@ -146,7 +146,7 @@ class Character {
         int ac;
 
         std::string size; 
-        int   speed;
+        int         speed;
 
         int strength;
         int dexterity;

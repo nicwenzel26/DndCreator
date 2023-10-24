@@ -1,5 +1,6 @@
 #include <iostream>
 #include "character.hpp"
+#include "races/dwarf.h"
 
 int main()
 {
