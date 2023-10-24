@@ -8,12 +8,12 @@
 void setDwarfTraits(Character &character)
 {
     character.setRace(Constants::Races[0]);
-    character.setSize(dwarfSize);
-    character.updateCon(dwarfConBonus);
-    character.setSpeed(dwarfSpeed);
+    character.setSize(Dwarf::size);
+    character.updateCon(Dwarf::conBonus);
+    character.setSpeed(Dwarf::speed);
 
     character.addTrait(Constants::darkVison);
-    character.addTrait(dwarfResilance);
-    character.addTrait(stonecunning);
-    character.addTrait(dwarfLanguage);
+    character.addTrait(Dwarf::dwarfResilance);
+    character.addTrait(Dwarf::stonecunning);
+    character.addTrait(Dwarf::language);
 }
