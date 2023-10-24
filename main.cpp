@@ -39,7 +39,22 @@ int main()
     {
         std::cout << i + 1 << ": " << Constants::Races[i] << "\n";
     }
-
+    std::string raceChoice = "";
     std::cout << "Which would you like to be? ";
+    std::getline(std::cin, raceChoice);
+
+    // Dwarf
+    if (raceChoice == "1")
+    {
+        std::cout << "Good choice! A hearty mountain dwelling dwarf is never a bad choice!\n";
+        setDwarfTraits(playerCharacter);
+    }
+
+    // Invalid race choice error conditon
+    else
+    {
+        std::cerr << "ERROR: INVALID CHOICE\n";
+        return -1; 
+    }
 
 }
