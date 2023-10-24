@@ -42,11 +42,12 @@ int main()
     std::string raceChoice = "";
     std::cout << "Which would you like to be? ";
     std::getline(std::cin, raceChoice);
+    std::cout << "\n\n";
 
     // Dwarf
     if (raceChoice == "1")
     {
-        std::cout << "Good choice! A hearty mountain dwelling dwarf is never a bad choice!\n";
+        std::cout << "Good choice! A hearty mountain dwelling dwarf is never a bad choice!\n\n";
         setDwarfTraits(playerCharacter);
     }
 

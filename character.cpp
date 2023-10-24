@@ -2,7 +2,7 @@
 
 Character::Character(std::string inputName) 
 {
-    name = inputName; 
+    name = inputName;
 }
 
 std::string Character::getCharName() 
