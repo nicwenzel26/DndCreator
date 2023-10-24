@@ -133,6 +133,16 @@ int Character::getChar()
 }
 
 ///////////////////////////////////////////////////////////////////////
+// @breif setRace() - Function to update the characters race
+// @param std::string newRace - new race for character
+// @return void
+///////////////////////////////////////////////////////////////////////
+void Character::setRace(std::string newRace)
+{
+    race = newRace;
+}
+
+///////////////////////////////////////////////////////////////////////
 // @breif setSize() - Function to update the characters size
 // @param std::string newSize - new size for character
 // @return void
